@@ -1,0 +1,20 @@
+# Dependencias
+node_modules/
+
+# Build
+dist/
+
+# Variables de entorno (no se usan hoy, por si acaso)
+.env
+.env.*
+!.env.example
+
+# Herramientas locales
+.claude/
+
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
