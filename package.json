@@ -1,0 +1,21 @@
+{
+  "name": "santoto-quest",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "RPG 2D estilo GBA ambientado en la Universidad Santo Tomás, Seccional Tunja",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "phaser": "^3.80.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "vite": "^5.2.0",
+    "vite-plugin-singlefile": "^2.3.3"
+  }
+}
